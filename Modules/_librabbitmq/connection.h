@@ -43,7 +43,7 @@
  */
 #  define _PYRMQ_INLINE
 # elif defined(__GNUC__) && !defined(__GNUC_STDC_INLINE__)
-#  define _PYRMQ_INLINE extern __inline
+#  define _PYRMQ_INLINE extern //__inline
 # else
 #  define _PYRMQ_INLINE __inline
 # endif
